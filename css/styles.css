@@ -8,4 +8,6 @@
 }
 .part1{
     text-align: center;
+    background-image: url(/Assets/backgrounds/s_image.jpg);
+    color: white;
 }
