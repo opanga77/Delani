@@ -4,12 +4,12 @@
 //     var captionText = document.getElementById("caption");
 //     captionText.innerHTML = element.alt;
 //   }
-  $(document).ready(function(){
-    $( "#image1").click(function(){
-      $(this).hide();
-      $( ".par1").show();
-});
-  })
+//   $(document).ready(function(){
+//     $( "#image1").click(function(){
+//       $(this).hide();
+//       $( ".par1").show();
+// });
+//   })
   // form section
   $(document).ready(function(){
     $("form#xxx").submit(function(event){
@@ -28,4 +28,39 @@
   
   });
   // portfolio section
+  $(document).ready(function() {
+    $("#designLogo").click(function() {
+      $("#inlineDesign").hide();
+      $(".toggleDesignLogo").show();
+    });
+    $(".toggleDesignLogo").click(function() {
+      $(".toggleDesignLogo").hide();
+      $("#inlineDesign").show();
+    });
   
+    $("#devLogo").click(function() {
+      $("#inlineDev").hide();
+      $(".toggleDevLogo").show();
+    });
+    $(".toggleDevLogo").click(function() {
+      $(".toggleDevLogo").hide();
+      $("#inlineDev").show();
+    });
+  
+    $("#productLogo").click(function() {
+      $("#inlineProduct").hide();
+      $(".toggleProductLogo").show();
+    });
+
+    $(".toggleProductLogo").click(function() {
+      $(".toggleProductLogo").hide();
+      $("#inlineProduct").show();
+    });
+    
+    $(document).ready(function() {
+      $('.work1Logo').hover(function() {
+        console.log('hovering')
+        $("#work1Text").show();
+      });
+    });
+  });
