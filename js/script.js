@@ -10,6 +10,7 @@
       $( ".par1").show();
 });
   })
+  // form section
   $(document).ready(function(){
     $("form#xxx").submit(function(event){
       // event.preventDefault();
@@ -26,3 +27,4 @@
     });
   
   });
+  // portfolio section
