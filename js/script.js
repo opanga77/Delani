@@ -1,7 +1,12 @@
-function onClick(element) {
-    document.getElementById("img01").src = element.src;
-    document.getElementById("modal01").style.display = "block";
-    var captionText = document.getElementById("caption");
-    captionText.innerHTML = element.alt;
-  }
-  
+// function onClick(element) {
+//     document.getElementById("img01").src = element.src;
+//     document.getElementById("modal01").style.display = "block";
+//     var captionText = document.getElementById("caption");
+//     captionText.innerHTML = element.alt;
+//   }
+  $(document).ready(function(){
+    $( "#image1").click(function(){
+      $(this).hide();
+      $( ".par1").show();
+});
+  })
