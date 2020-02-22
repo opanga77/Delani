@@ -13,7 +13,7 @@
   // form section
   $(document).ready(function(){
     $("form#xxx").submit(function(event){
-      // event.preventDefault();
+      event.preventDefault();
       var name = $("input#Name").val();
       var email = $("input#Email").val();
       var message = $("input#Message").val();
@@ -28,3 +28,4 @@
   
   });
   // portfolio section
+  
