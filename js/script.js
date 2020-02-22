@@ -11,12 +11,12 @@
 });
   })
   $(document).ready(function(){
-    $("form#form34A").submit(function(event){
+    $("form#xxx").submit(function(event){
       // event.preventDefault();
-      var name = $("input#MERGE1").val();
-      var email = $("input#MERGE0").val();
-      var message = $("textarea#comment").val();
-      if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+      var name = $("input#Name").val();
+      var email = $("input#Email").val();
+      var message = $("input#Message").val();
+      if ($("input#Name").val() && $("input#Email").val()){
         alert (name + ", we have received your message. Thank you for reaching out to us.");
       }
       else {
