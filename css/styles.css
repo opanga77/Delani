@@ -1,5 +1,5 @@
 .display{
-    background-image:url(/Assets/backgrounds/h_img.jpg);
+    background-image:url('/Assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -8,7 +8,7 @@
 }
 .part1{
     text-align: center;
-    background-image: url(/Assets/backgrounds/s_image.jpg);
+    background-image: url('/Assets/backgrounds/s_image.jpg');
     color: white;
 }
 .part2{
@@ -19,7 +19,7 @@
 }
 .part4{
     text-align: center;
-    background-image: url(/Assets/backgrounds/c_image.jpg);
+    background-image: url('/Assets/backgrounds/c_image.jpg');
 }
 .part5{
     text-align: center;
