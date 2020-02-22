@@ -4,3 +4,4 @@ function onClick(element) {
     var captionText = document.getElementById("caption");
     captionText.innerHTML = element.alt;
   }
+  
