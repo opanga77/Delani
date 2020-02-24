@@ -46,6 +46,8 @@ h2{
     text-align: center;
 }
 .part4{
+  background-position: center;
+  background-size: cover;
     text-align: center;
     background-image: url('../Assets/backgrounds/c_image.jpg');
     color: white;
@@ -101,7 +103,7 @@ h2{
   }
   #mc_embed_signup{
     background:#fff;
-    clear:left;
+    clear:center;
     font:14px Helvetica,Arial,sans-serif;
      }
      #click{
@@ -113,3 +115,16 @@ h2{
      #portfolio{
        margin-left: 100px;
      }
+     #message{
+       height: 40px;
+       width: 50%;
+     }
+     /* .ttt{
+       display: none;
+     }
+     .kkk{
+       display: none;
+     }
+     .ppp{
+       display: none;
+     } */
