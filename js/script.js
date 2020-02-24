@@ -1,8 +1,8 @@
 
   // form section
+  // dshatfqwwwwyhqf
   $(document).ready(function(){
-    $("form#xxx").submit(function(event){
-      event.preventDefault();
+    $("form#sign").submit(function(event){
       var name = $("input#Name").val();
       var email = $("input#Email").val();
       var message = $("input#Message").val();

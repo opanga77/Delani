@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  padding:20px;
+}
 .display{
     background-image:url('../Assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
@@ -84,3 +90,8 @@ h2{
   .p{
       text-align: center;
   }
+  #mc_embed_signup{
+    background:#fff;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+     }
