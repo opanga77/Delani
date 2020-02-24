@@ -7,10 +7,10 @@
       var email = $("input#Email").val();
       var message = $("input#Message").val();
       if ($("input#Name").val() && $("input#Email").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
+        alert (" Hellow " + name + ", your message has been received. Thank you for reaching out to us.");
       }
       else {
-        alert("Please enter your name and email!");
+        alert("Ooops! Please enter your name and email!");
       }
       
     });
