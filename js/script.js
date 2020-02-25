@@ -1,6 +1,5 @@
 
   // form section
-  // dshatfqwwwwyhqf
   $(document).ready(function(){
     $("form#sign").submit(function(event){
       var name = $("input#Name").val();
