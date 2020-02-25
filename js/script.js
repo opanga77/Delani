@@ -6,16 +6,17 @@
       var name = $("input#Name").val();
       var email = $("input#Email").val();
       var message = $("input#Message").val();
-      // if ($("input#Name").val() && $("input#Email").val()){
+      if ($("input#Name").val() && $("input#Email").val()){
         alert (" Hellow " + name + ", your message has been received. Thank you for reaching out to us.");
-      // }
-      // else {
-        // alert("Ooops! Please enter your name and email!");
+      }
+      else {
+        alert("Ooops! Please enter your name and email!");
       }
       
     });
   
   });
+  
   // portfolio section
   $(document).ready(function() {
     $("#designLogo").click(function() {

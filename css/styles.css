@@ -120,4 +120,10 @@ h2{
        height: 40px;
        width: 50%;
      }
+     h2{
+      font-family: 'Berkshire Swash';
+     }
+     h3{
+      font-family: 'Playfair Display';
+     }
      
