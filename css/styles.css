@@ -126,4 +126,8 @@ h2{
      h3{
       font-family: 'Playfair Display';
      }
+     #input{
+       padding-left: 100px;
+       padding-right: 50px;
+     }
      
