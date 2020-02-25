@@ -5,7 +5,7 @@
     $("form#sign").submit(function(event){
       var name = $("input#Name").val();
       var email = $("input#Email").val();
-      var message = $("input#Message").val();
+      var textarea = $("input#Message").val();
       if ($("input#Name").val() && $("input#Email").val()){
         alert (" Hellow " + name + ", your message has been received. Thank you for reaching out to us.");
       }
